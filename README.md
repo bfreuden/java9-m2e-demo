@@ -6,7 +6,7 @@ This very simple Java 9 Maven project causes the following error when imported (
 
 However it is compiling and running unit tests correctly with Maven 3.5.2.
 
-module-info.java does not require JUnit:
+**module-info.java** does not require JUnit:
 ```java
 module helloworld.java9demo {
 
@@ -15,7 +15,7 @@ module helloworld.java9demo {
 }
 ``` 
 
-and pom.xml is declaring the JUnit dependency:
+and **pom.xml** is declaring the JUnit dependency:
 ```xml
 <dependency>
 	<groupId>junit</groupId>
