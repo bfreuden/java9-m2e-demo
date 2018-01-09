@@ -4,7 +4,7 @@ This very simple Java 9 Maven project causes the following error when imported (
   
 ![Eclipse error](eclipse-error.PNG)
 
-However it is compiling correctly with Maven 3.5.2.
+However it is compiling and running unit tests correctly with Maven 3.5.2.
 
 module-info.java does not require JUnit:
 ```java
